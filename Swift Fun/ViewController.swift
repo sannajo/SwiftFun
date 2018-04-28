@@ -17,7 +17,8 @@ class ViewController: UIViewController {
     //Kun painiketta painaa, vaihtuu taustaväri ja teksti x 2.
     @IBAction func buttonTapped(_ sender: Any) {
         
-        buttonCount = buttonCount + 1
+        // Lisää aina yhden. On sama kuin buttonCount = buttonCount + 1
+        buttonCount += 1
         print(buttonCount)
         
         if buttonCount >= 10 {
