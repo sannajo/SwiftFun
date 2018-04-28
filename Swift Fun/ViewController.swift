@@ -10,11 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    // Laskee kuinka monta kertaa painiketta painetaan.
+    // Laskee kuinka monta kertaa painiketta painetaan..
     var buttonCount = 0
     @IBOutlet weak var myLabel: UILabel!
     
-    //Kun painiketta painaa, vaihtuu taustaväri ja teksti.
+    //Kun painiketta painaa, vaihtuu taustaväri ja teksti x 2.
     @IBAction func buttonTapped(_ sender: Any) {
         
         buttonCount = buttonCount + 1
