@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBAction func buttonTapped(_ sender: Any) {
         
         buttonCount = buttonCount + 1
+        print(buttonCount)
         
         if buttonCount >= 10 {
             
